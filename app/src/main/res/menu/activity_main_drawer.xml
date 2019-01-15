@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dept"
+
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Departments" />
+        <item
+            android:id="@+id/nav_staff"
+
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Staff And Faculty" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_timetable"
+
+            android:icon="@drawable/ic_chrome_reader_mode_black_48dp"
+            android:title="Timetable" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+
+            android:title="Food" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts_black_48dp"
+
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/ic_gamepad_black_48dp"
+
+            android:title="Developed By" />
+
+    </group>
+
+
+
+</menu>

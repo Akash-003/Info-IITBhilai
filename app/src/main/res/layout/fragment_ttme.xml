@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.iitbhilai.idp.infoiitbhilai.ttme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/day_list"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/segment_list"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/get_timetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"
+            android:text="Get TimeTable" />
+
+    </RelativeLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+
+        android:stretchColumns="0,1,2">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="9:00 am-10:30 am"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/first_class"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                tools:text="Ctrl-O"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="10:30 am- 12:00 am"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/second_class"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                tools:text="Ctrl-S"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="12:00 am - 1:30 pm"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/third_class"
+                android:gravity="left"
+                tools:text="Ctrl-Shift-S"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="1:30 pm - 2:30 pm"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:gravity="left"
+                android:text="Lunch"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="2:30 pm - 4:00 pm"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/fourth_class"
+                android:gravity="left"
+                tools:text="Ctrl-E"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="4:00 pm - 5:30 pm"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/fifth_class"
+                android:gravity="left"
+                tools:text="sdsadssa"
+                android:textColor="@android:color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        tools:text="@string/LA1260"
+        android:textColor="@android:color/black"/>
+
+
+</LinearLayout>

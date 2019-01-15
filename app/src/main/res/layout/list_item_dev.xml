@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp">
+
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/photo"
+        tools:text="Naman M Samarth"
+        android:textSize="24sp"
+
+        android:textColor="@android:color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/roll_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/photo"
+        tools:text="CS16B1018"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

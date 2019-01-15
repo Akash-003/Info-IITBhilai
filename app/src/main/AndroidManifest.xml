@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iitbhilai.idp.infoiitbhilai">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Timetable"
+            android:label="Timetable" />
+        <activity
+            android:name=".Calender"
+            android:label="Academic Calender" />
+        <activity
+            android:name=".Contacts"
+            android:label="Important Contacts" />
+        <activity
+            android:name=".Food"
+            android:label="Mess Menu" />
+        <activity
+            android:name=".Dept"
+            android:label="Departments" />
+        <activity
+            android:name=".Dev"
+            android:label="Developed By" />
+        <activity
+            android:name=".Staff"
+            android:label="Staff and Faculty" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BM1030">BIOENGINEERING</string>
+    <string name="BO1010">INTRO TO LIFE SCIENCES</string>
+    <string name="CS1340">DISCRETE STRUCTURES-II</string>
+    <string name="CS1353">INTRO TO DATA STRUCTURES</string>
+    <string name="CY1020">DYNAMICS OF CHEMICAL SYSTEMS-I</string>
+    <string name="CY1021">DYNAMICS OF CHEMICAL SYSTEMS-II</string>
+    <string name="EE1025">IDP</string>
+    <string name="EE1130">ANALOG ELECTRONICS</string>
+    <string name="EE1140">SEMICONDUCTOR FUNDAMENTALS</string>
+    <string name="EE1150">EMBEDDED PROGRAMMING</string>
+    <string name="EE1210">BASIC CONTROL THEORY</string>
+    <string name="EE1330">DSP</string>
+    <string name="EE1410">DATA STRUCTURES</string>
+    <string name="EE1510">MATRIX ANALYSIS</string>
+    <string name="EE1520">DATA ANALYTICS</string>
+    <string name="ID1140">THERMODYNAMICS-I</string>
+    <string name="ID1160">SOLID MECHANICS-I</string>
+    <string name="ID1921">DIY TRAINING LAB</string>
+    <string name="ID1931">AUTOMATION SYSTEMS LAB</string>
+    <string name="LA1050">INTRO TO WESTERN ARTS</string>
+    <string name="LA1110">FINANCIAL MARKETS</string>
+    <string name="LA1260">FUNDAMENTALS OF ORG. STRUCTURES</string>
+    <string name="MA1130">VECTOR CALCULUS</string>
+    <string name="MA1140">LINEAR ALGEBRA</string>
+    <string name="MA1150">DIFFERENTIAL EQUATIONS</string>
+    <string name="ME1030">DYNAMICS</string>
+    <string name="PH1027">EM AND MAXWELL EQUATION</string>
+
+</resources>
