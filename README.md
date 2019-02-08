@@ -1,2 +1,2 @@
 # Info-IITBhilai
-An app to provide general information to students of IIT Bhilai
+An android app to provide general information to students of IIT Bhilai
